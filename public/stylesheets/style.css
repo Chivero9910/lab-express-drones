@@ -6,3 +6,45 @@ body {
 a {
   color: #00b7ff;
 }
+
+#drone-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid black;
+  margin: 2px 0px;
+  padding: 5px;
+}
+
+#drone-div a{
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 5px;
+  background-color:#00b7ff;
+}
+
+#drone-div button{
+  color: black;
+border: 1px solid black;
+border-radius: 5px;
+background-color: #00b7ff;
+}
+
+#drone-div button:hover{
+background-color: #0b3545;
+transform: translateX(2px);
+color: white;
+}
+
+#drone-div a:hover{
+  background-color: #0b3545;
+  transform: translateX(2px);
+  color: white;
+  }
+
+.space-div{
+  margin-right: 10px;
+}
+
