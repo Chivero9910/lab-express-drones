@@ -3,4 +3,6 @@
   <p>{{name}}</p>
   <p>{{propellers}}</p>
   <p>{{maxSpeed}}</p>
+  <a href="/drones/{{_id}}/edit">Edit</a>
+  <form action="/drones/{{_id}}/delete" method="post"><button>Delete</button></form>
 {{/each}}
